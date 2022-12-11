@@ -1,0 +1,107 @@
+body {
+    /* margin: 0;
+    padding: 0; */
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.header {
+    font-size: 14px;
+    justify-content: space-between;
+    text-decoration-line: none;
+}
+
+.header-left {
+    margin: auto;
+    padding: auto;
+    float: left;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.header-right {
+    margin: auto;
+    padding: auto;
+    float: right;
+    text-decoration: none;
+    align-items: center;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    margin-top: 5%;
+    flex-direction: column;
+}
+
+img {
+    width: 18%;
+    margin: auto;
+}
+
+input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+}
+
+.searchbox {
+    margin: auto;
+    background: #FFF;
+    display: flex;
+    border: 1px solid lightgray;
+    padding: 10px 20px;
+    border-radius: 999px;
+    width: 75vw;
+    margin: 0 auto;
+    margin-top: 5px;
+    max-width: 560px;
+    height: 20px;
+}
+
+.search-icon {
+    float: left;
+    margin: auto;
+    color: gray;
+}
+
+.mic-icon {
+    float: right;
+    margin: auto;
+    color: gray;
+}
+
+button {
+    border: 1px solid #f2f2f2;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    margin: 11px 4px;
+    padding: 0 16px;
+    font-size: 15px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+}
+
+footer {
+    /* bottom: 0; */
+}
+
+.footer {
+    bottom: 0;
+    float: left;
+    position: absolute;
+    margin-bottom: 5px;
+}
+
+.bosluk {
+    margin: 15px;
+    font-size: 14px;
+}
